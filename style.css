@@ -116,7 +116,7 @@ span{
     border-radius: 15px;
     text-align: center; 
     margin-top: 15rem;
-    background: blur(10px);
+    backdrop-filter: blur(12px);
 }
 .infoBody{
     padding: 2rem;
@@ -128,7 +128,7 @@ span{
     padding: 2rem;
 }
 .codeBox p{
-    background-color: #06060768;
+    background: #121213;
     color: #ffffff;
     padding: 6px;
     border-radius: 1rem;
@@ -143,9 +143,10 @@ span{
 }
 .rewardsBody{
     padding-bottom: 5px;
+    
 }
 .rewardsBox{
-    background-color: #06060768;
+    background: #121213;
     padding: 1rem;
     border-radius: 2rem;
     margin: 2rem;
