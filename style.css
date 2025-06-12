@@ -154,3 +154,10 @@ span{
 .rewardsBox p{
     color: #ffffffda;
 }
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+@media (max-width: 576px) {
+    .info{
+        margin: 2rem;
+    }
+}
