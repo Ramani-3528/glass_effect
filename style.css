@@ -160,4 +160,7 @@ span{
     .info{
         margin: 4rem 1.5rem;
     }
+    .codeBox p{
+        letter-spacing: normal;
+    }
 }
