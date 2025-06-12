@@ -158,6 +158,6 @@ span{
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
 @media (max-width: 576px) {
     .info{
-        margin: 4rem 1.5rem ;
+        margin: 4rem 1.5rem;
     }
 }
