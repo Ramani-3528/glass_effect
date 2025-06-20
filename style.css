@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-wrap: pretty;
-    /* border: 1px solid white; */
+    /* border: 0.1rem solid white; */
 }
   
 html {
@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    min-height: 70px;
+    min-height: 7rem;
     background-image: url(./assets/images/background.png); 
     background-repeat: no-repeat;
     background-position: center;
@@ -22,15 +22,15 @@ body{
 }
 ::-webkit-scrollbar {
     width: 1.5rem;
-    height: 10px;
+    height: 1rem;
 }
 ::-webkit-scrollbar-track {
     background: #e3e4e6;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 ::-webkit-scrollbar-thumb {
     background: #6c6c6d;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 h1,
@@ -43,30 +43,30 @@ p {
 }
 h1 {
     font-weight: 850;
-    font-size: 50px;
+    font-size: 5rem;
     color: #ffffff;
     text-align: center;
 }
   
 h2 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 3rem;
     color: #ffffff;
     text-align: left;
 }
   
 h3 {
     color: #aaa;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 100;
 }
 p{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #aaa;
 }
 .screensize{
     margin: auto;
-    max-width: 500px;
+    max-width: 50rem;
 }
 .grid-1 {
     display: grid;
@@ -113,10 +113,10 @@ span{
 .infoContainer {
     background-color: rgba(0, 0, 0, 0.45);
     color: white;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     text-align: center; 
     margin-top: 15rem;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(1.2rem);
 }
 .infoBody{
     padding: 2rem;
@@ -130,9 +130,9 @@ span{
 .codeBox p{
     background: #121213;
     color: #ffffff;
-    padding: 6px;
+    padding: 0.6rem;
     border-radius: 1rem;
-    letter-spacing: 3px;
+    letter-spacing: 0.3rem;
 }
 .codeBox h3{
     text-align: left;
@@ -142,7 +142,7 @@ span{
     color: #ffffff;
 }
 .rewardsBody{
-    padding-bottom: 5px;
+    padding-bottom: 0.5rem;
     
 }
 .rewardsBox{
